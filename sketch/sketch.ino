@@ -32,6 +32,7 @@ int mark = 0;
   2 -> 9
   3 -> 8
   4 -> 6
+
   digitPins from 1 to 4
   segmentPins from A to P
   */
@@ -63,7 +64,7 @@ void setup(){
 }
 
 void loop(){
-    //time is now
+    //the time is now
     DateTime now = rtc.now();
         
     //if button push log that else display now-mark
@@ -73,6 +74,8 @@ void loop(){
     
     else {
       //sevseg.setNumber(100*(now.second()-mark)+mark,4);
+      
+      //testing
       Serial.print(now.second()-mark, DEC);
       Serial.print(' ');
       Serial.print(mark, DEC);

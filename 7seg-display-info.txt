@@ -1,0 +1,30 @@
+    
+ 7-seg 4 digit model A-564SR
+     A
+   *****
+ F *   *
+   * G * B
+   *****
+ E *   * 
+   *   * C
+   *****
+     D
+  
+  A -> 11
+  B -> 7
+  C -> 4
+  D -> 2
+  E -> 1
+  F -> 10
+  G -> 5
+  P -> 3
+  
+  
+  1 -> 12
+  2 -> 9
+  3 -> 8
+  4 -> 6
+
+  digitPins from 1 to 4
+  segmentPins from A to P
+  
